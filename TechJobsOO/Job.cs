@@ -19,9 +19,8 @@ namespace TechJobsOO
             nextId++;
         }
 
-        public Job(int id, string name, Employer employerName, Location employerLocation, PositionType jobType, CoreCompetency jobCoreCompetency) : this()
+        public Job(string name, Employer employerName, Location employerLocation, PositionType jobType, CoreCompetency jobCoreCompetency) : this()
         {
-            Id = id;
             Name = name;
             EmployerName = employerName;
             EmployerLocation = employerLocation;
@@ -43,7 +42,7 @@ namespace TechJobsOO
 
         public override string ToString()
         {
-            return base.ToString();
+            return "Job string";
         }
 
 
